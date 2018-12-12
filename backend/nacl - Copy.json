@@ -1,0 +1,208 @@
+[
+  {
+    "group": "user",
+    "permissions": [
+      {
+        "resource": "permissions/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "permission-role/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "roles/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "frontend/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "module/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "menu/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "departments/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "regiments/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "sub-menu/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "employees/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "designation/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "attendance/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "budget-head/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "company/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "budget/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "budget-session/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "budget-distribution/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "budget-find/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "primary-info/*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "admin",
+    "permissions": [
+      {
+        "resource": "users/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "roles/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "permissions/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "permission-role/*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "developer",
+    "permissions": [
+      {
+        "resource": "roles",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "permissions",
+        "methods": [
+          "POST"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "menu",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "accountent",
+    "permissions": [
+      {
+        "resource": "roles",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "permissions",
+        "methods": [
+          "POST"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "menu",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "Employee",
+    "permissions": [
+      {
+        "resource": "roles",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "permissions",
+        "methods": [
+          "POST"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "menu",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  }
+]
